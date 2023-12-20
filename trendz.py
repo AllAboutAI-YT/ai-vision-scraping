@@ -184,8 +184,7 @@ def text_to_speech_and_download(text, download_path):
 
 # List of URLs to process
 urls_to_process = [
-    "https://www.flashscore.com/match/zBKRXRu1/#/match-summary/player-statistics/0",
-    "https://www.flashscore.com/match/vmsp802I/#/match-summary/match-statistics/0"
+    "INSERT URLS TO SCREENSHOT"
     # Add more URLs here...
 ]
 
