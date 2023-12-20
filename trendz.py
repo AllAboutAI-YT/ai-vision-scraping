@@ -148,12 +148,12 @@ def process_urls(urls, prompt):
 
 def text_to_speech_and_download(text, download_path):
     CHUNK_SIZE = 1024
-    url = "https://api.elevenlabs.io/v1/text-to-speech/rU18Fk3uSDhmg5Xh41o4"
+    url = "https://api.elevenlabs.io/v1/text-to-speech/(voice_id)"
 
     headers = {
       "Accept": "audio/mpeg",
       "Content-Type": "application/json",
-      "xi-api-key": "a0de36c357cddb37bc576d3a4d016a5f"
+      "xi-api-key": "YOUR ELEVEN LABS API KEY"
     }
 
     data = {
